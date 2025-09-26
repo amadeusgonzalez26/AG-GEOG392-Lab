@@ -6,7 +6,8 @@ if __name__ == "__main__":
     result1 = 1
 
     ### Add your code here
-
+    for i in lst1:
+        result1 *= i
     ###
 
     print(f"Results of Q1:")
@@ -17,7 +18,8 @@ if __name__ == "__main__":
     result2 = 0
 
     ### Add your code here
-
+    for i in lst2:
+        result2 += i
     ###
 
     print(f"Results of Q2:")
@@ -28,6 +30,9 @@ if __name__ == "__main__":
     result3 = 0
 
     ### Add your code here
+    for i in lst3:
+        if i % 2 == 0:
+            result3 += i
 
     ###
 
